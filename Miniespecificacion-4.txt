@@ -1,0 +1,35 @@
+1. Inicio
+2. Se pide que se ingrese el costo del CPU
+3. Se pide que se ingrese el costo del teclado
+4. Se pide que se ingrese el costo de la pantalla
+5. Se pide que se ingrese el costo del raton
+6. Se calcula el valor total de la computadora sumando el costo del: CPU, teclado, pantalla y ratón.
+7. Se presenta en pantalla el valor total de la computadora
+8. Fin
+-----------------------------------------------------------------------------------------------------------------------
+Miniespecificaion o Pseudocodigo
+1.Inicio
+
+//declaro las variables
+2.costoCpu, d[0,n]
+3.costoTeclado, d[0,n]
+4.costoPantalla, d[0,n]
+5.costoRaton, d[0,n]
+6.costoTotal, d[0,n]
+
+//pido los datos por teclado - entrada
+7.Escribir "Ingrese el valor del CPU"
+8.Leer costoCpu
+9.Escribir "Ingrese el valor del teclado"
+10.Leer costoTeclado
+Escribir "Ingrese el valor del pantalla"
+11.Leer costoPantalla
+Escribir "Ingrese el valor del raton"
+12.Leer costoRaton
+
+//proceso
+13.costorTotal <-- costoCpu + costoTeclado + costoPantalla + costoRaton
+
+//salida
+14. Escribir "El costo total de la computadora es: " +costoTotal
+15.Fin

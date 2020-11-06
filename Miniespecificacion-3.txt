@@ -1,0 +1,28 @@
+1. Inicio
+2. Se pide que se ingrese el costo por minuto del telefono
+3. Se pide que se ingrese el número de minutos consumidos en el mes
+4. Se calcula el valor de la planilla de telefono multiplicando el costo por minuto del telefono con el numero de minutos consumidos en el mes
+5. Se presenta en pantalla el costo de la planilla de telefono
+6. Fin
+-------------------------------------------------------------------------------------------------------------------------------------
+Miniespecificaciones o Pseudocodigo
+
+1. Inicio
+// declaro las variables
+2. costoMinuto, d[0, n]
+3. minutosConsumidos, i[0, n]
+4. costoTotal, d[0, n]
+
+//pido los datos por teclado - entradas
+5. Escribir "Ingrese cuanto cuesta usar el telefono por minuto" 
+6. Leer costoMinuto
+7. Escribir "Ingrese los minutos consumido del telefono"
+8. Leer minutosConsumidos
+
+//proceso
+9. costoTotal <-- costoMinuto * minutosConsumidos
+
+//salida
+10. Escribir "El costo total es: " + costoTotal
+
+11. Fin 

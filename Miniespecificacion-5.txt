@@ -1,0 +1,30 @@
+1. Inicio
+2. Se pide que se ingrese el monto del prestamo
+3. Se calcula el valor a pagar por mes dividiendo el monto del prestamo ingresado dividido para 12 meses que confoma 1 año
+4. Se pide que se ingrese el interes mensual a cobrar
+5. Se calcula el pago mensual sumando el valor a pagar por mes mas el interes mensual a cobrar
+6. Se presenta en pantalla el total a pagar mensualmente del prestamo ingresado
+7. Fin
+Generar un solución que permita calcular y mostrar el pago mensual de un préstamo de 1 año de plazo. Se debe ingresar el monto del préstamo y el interés mensual a cobrar.
+---------------------------------------------------------------------------------------------------------------
+1. Inicio
+
+//declaramos variables
+2. cantidadPrestamo, d[0, n]
+3. pagoMensual, d[0, n]
+4. interesmensual, d[0, n]
+5. plazo, i[12]
+
+//pido los datos por teclado - entrada
+5. Escribir "Ingrese la cantidad del prestamo a pedir"
+8. Leer cantidadPrestamo
+9. Escribir "Cual es el interes mensual a cobrar?"
+10. Leer interesMensual
+
+//Proceso
+11. pagoMensual <-- (cantidadPrestamo/plazo) + interesMensual
+
+//salida
+14. Escribir "El valor a pagar mensualmente del prestamo con 1 año de plazo es: " +pagoMensual
+
+15.Fin
